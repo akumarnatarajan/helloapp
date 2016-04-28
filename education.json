@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "entity": {
+        "name": "Education",
+        "remoteName": "Education",
+        "properties": [
+          {
+            "field": {
+              "name": "Employeeno",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "Personnel No.",
+              "sample": "",
+              "maxLength": 8,
+              "fixedLength": false
+            }
+          },
+			{
+            "field": {
+              "name": "Degree Type",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "Degree Type",
+              "sample": "",
+              "maxLength": 4,
+              "fixedLength": false
+            }
+          },
+			{
+            "field": {
+              "name": "School Name",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "School Name",
+              "sample": "",
+              "maxLength": 80,
+              "fixedLength": false
+            }
+          },
+          {
+            "field": {
+              "name": "City",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "City",
+              "sample": "",
+              "maxLength": 40,
+              "fixedLength": false
+            }
+          },
+		  {
+            "field": {
+              "name": "Country",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "Country",
+              "sample": "",
+              "maxLength": 3,
+              "fixedLength": false
+            }
+          },
+		  {
+            "field": {
+              "name": "Course Name",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "Course Name",
+              "sample": "",
+              "maxLength": 25,
+              "fixedLength": false
+            }
+          },
+		  {
+            "field": {
+              "name": "Faculty Name",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "Faculty Name",
+              "sample": "",
+              "maxLength": 40,
+              "fixedLength": false
+            }
+          },
+		  {
+            "field": {
+              "name": "Start Date",
+              "type": "Edm.DateTime",
+              "nullable": false,
+              "key": true,
+              "description": "Start Date",
+              "sample": "",
+              "maxLength": 15,
+              "fixedLength": false
+            }
+          },
+		  {
+            "field": {
+              "name": "End Date`",
+              "type": "Edm.DateTime",
+              "nullable": false,
+              "key": true,
+              "description": "End Date",
+              "sample": "",
+              "maxLength": 15,
+              "fixedLength": false
+            }
+          },
+		  {
+            "field": {
+              "name": "Certificate",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "Certificate",
+              "sample": "",
+              "maxLength": 2,
+              "fixedLength": false
+            }
+          },
+		  {
+            "field": {
+              "name": "Diploma",
+              "type": "Edm.String",
+              "nullable": false,
+              "key": true,
+              "description": "Diploma",
+              "sample": "",
+              "maxLength": 80,
+              "fixedLength": false
+            }
+          }
+        ]
+      }
+    }
+  ]
+}  
+
